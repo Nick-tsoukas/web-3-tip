@@ -45,8 +45,17 @@ export default {
     }
   },
 
+
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [ "nuxt-web3"],
+  modules: [ 
+          "nuxt-web3",
+          '@nuxtjs/strapi', 
+          '@nuxtjs/cloudinary'
+        ],
+
+  cloudinary: {
+          cloudName: 'punkrockcomp'
+        },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
