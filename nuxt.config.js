@@ -48,9 +48,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [ 
+          '@nuxtjs/cloudinary',
           "nuxt-web3",
-          '@nuxtjs/strapi', 
-          '@nuxtjs/cloudinary'
         ],
 
   cloudinary: {
