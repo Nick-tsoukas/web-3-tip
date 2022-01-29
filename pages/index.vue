@@ -47,7 +47,7 @@ export default {
          method: 'eth_sendTransaction',
          params: [{
            from: accounts[0],
-           to: '0xda075ef971124C941674c3DDCeeEc56c1d223aee',
+           to: '0xCB9a884eF057f04C582bfDadaCB3B8e1A7d9E8D8',
            value: window.web3.utils.toHex(wei)
          }]
        })
